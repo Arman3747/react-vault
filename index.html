@@ -1,0 +1,2005 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React Vault</title>
+    <link rel="shortcut icon" href="assets/images/react_vault_logo.png" type="image/x-icon">
+
+
+    <!-- font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap" rel="stylesheet">
+
+    <style>
+      body {
+        font-family: "Fira Code", monospace;
+        background-color: black;
+        color: #39FF14;
+      }
+    </style>
+
+    <!-- tailwindcss  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body class="m-2 flex flex-col justify-center items-center">
+    
+  <header class="w-full max-w-5xl">
+		<nav class="flex justify-between items-center">
+			<div class="flex justify-start items-center gap-2">
+                <img src="assets/images/react_vault_logo.png" alt="job" class="w-16">
+                <h1 class="text-5xl">React Vault</h1>
+            </div>
+			<div class="flex justify-between items-center gap-4 *:text-xl *:transition-opacity *:hover:text-white">
+                <!-- <a href="../../index.html" target="_self" class="no-underline hover:opacity-80 hover:underline" >change</a> -->
+				
+                <a href="#" target="_self" class="underline decoration">Home</a>
+            </div>
+			<!-- <div></div> -->
+		</nav>
+	</header>
+
+    <main class="min-h-screen w-full max-w-5xl mb-4">
+
+      <section class="mb-16">
+        <p class="ml-2 text-xl text-white">A Vault of the best React libraries, frameworks, and developer tools</p>
+      </section>
+      
+      <!-- react Libraries / Frameworks  -->
+      <section class="mb-4">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+          <!-- Card 01 --- React Styling -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">React Styling</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- TailwindCSS -->
+                    <div class="flex flex-row justify-between items-center gap-2 ">
+                      <p>TailwindCSS</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://tailwindcss.com/" target="_blank"><img src="assets/images/website.svg" alt="TailwindCSS" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/tailwindlabs/tailwindcss" target="_blank"><img src="assets/images/gitHub.svg" alt="TailwindCSS" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@tailwindcss/vite" target="_blank"><img src="assets/images/npm.svg" alt="TailwindCSS" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Radix UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Radix UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.radix-ui.com/" target="_blank"><img src="assets/images/website.svg" alt="Radix UI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/radix-ui/themes" target="_blank"><img src="assets/images/gitHub.svg" alt="Radix UI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@radix-ui/themes" target="_blank"><img src="assets/images/npm.svg" alt="Radix UI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Base UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Base UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://base-ui.com/" target="_blank"><img src="assets/images/website.svg" alt="Base UI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/mui/base-ui" target="_blank"><img src="assets/images/gitHub.svg" alt="Base UI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@base-ui/react" target="_blank"><img src="assets/images/npm.svg" alt="Base UI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Ark UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Ark UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://ark-ui.com/" target="_blank"><img src="assets/images/website.svg" alt="Ark UI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/chakra-ui/ark" target="_blank"><img src="assets/images/gitHub.svg" alt="Ark UI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@ark-ui/react" target="_blank"><img src="assets/images/npm.svg" alt="Ark UI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Panda CSS -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Panda CSS</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://panda-css.com/" target="_blank"><img src="assets/images/website.svg" alt="Panda CSS" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/chakra-ui/panda" target="_blank"><img src="assets/images/gitHub.svg" alt="Panda CSS" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@pandacss/dev" target="_blank"><img src="assets/images/npm.svg" alt="Panda CSS" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- React Aria -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Aria</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://react-aria.adobe.com/" target="_blank"><img src="assets/images/website.svg" alt="React Aria" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/adobe/react-spectrum" target="_blank"><img src="assets/images/gitHub.svg" alt="React Aria" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/react-aria-components" target="_blank"><img src="assets/images/npm.svg" alt="React Aria" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Styled Components -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      
+                      <p>Styled Components</p>
+
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://styled-components.com/" target="_blank"><img src="assets/images/website.svg" alt="Styled Components" width="18" height="18"></a>
+
+                        <a href="https://github.com/styled-components/styled-components" target="_blank"><img src="assets/images/gitHub.svg" alt="Styled Components" width="18" height="18"></a>
+
+                        <a href="https://www.npmjs.com/package/styled-components" target="_blank"><img src="assets/images/npm.svg" alt="Styled Components" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Emotion -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Emotion</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://emotion.sh/docs/introduction" target="_blank"><img src="assets/images/website.svg" alt="Emotion" width="18" height="18"></a>
+
+                        <a href="https://github.com/emotion-js/emotion" target="_blank"><img src="assets/images/gitHub.svg" alt="Emotion" width="18" height="18"></a>
+
+                        <a href="https://www.npmjs.com/package/@emotion/react" target="_blank"><img src="assets/images/npm.svg" alt="Emotion" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Vanilla Extract -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Vanilla Extract</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://vanilla-extract.style/" target="_blank"><img src="assets/images/website.svg" alt="Vanilla Extract" width="18" height="18"></a>
+                        <a href="https://github.com/vanilla-extract-css/vanilla-extract" target="_blank"><img src="assets/images/gitHub.svg" alt="Vanilla Extract" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@vanilla-extract/css" target="_blank"><img src="assets/images/npm.svg" alt="Vanilla Extract" width="18" height="18" ></a>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+
+          <!-- Card 02 --- UI Libraries -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">UI Libraries</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- daisyUI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>daisyUI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://daisyui.com/" target="_blank"><img src="assets/images/website.svg" alt="daisyUI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/saadeghi/daisyui" target="_blank"><img src="assets/images/gitHub.svg" alt="daisyUI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/daisyui" target="_blank"><img src="assets/images/npm.svg" alt="daisyUI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Shadcn/UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Shadcn/UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://ui.shadcn.com/" target="_blank"><img src="assets/images/website.svg" alt="shadcn/ui" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/shadcn-ui/ui" target="_blank"><img src="assets/images/gitHub.svg" alt="shadcn/ui" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/shadcn" target="_blank"><img src="assets/images/npm.svg" alt="shadcn/ui" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- React Bootstrap -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Bootstrap</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://react-bootstrap.github.io/" target="_blank"><img src="assets/images/website.svg" alt="React Bootstrap" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/react-bootstrap/react-bootstrap" target="_blank"><img src="assets/images/gitHub.svg" alt="React Bootstrap" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/react-bootstrap" target="_blank"><img src="assets/images/npm.svg" alt="React Bootstrap" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Material UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Material UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://mui.com/material-ui/" target="_blank"><img src="assets/images/website.svg" alt="Material UI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/mui/material-ui" target="_blank"><img src="assets/images/gitHub.svg" alt="Material UI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@mui/material" target="_blank"><img src="assets/images/npm.svg" alt="Material UI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Mantine UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Mantine UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://mantine.dev/" target="_blank"><img src="assets/images/website.svg" alt="Mantine UI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/mantinedev/mantine" target="_blank"><img src="assets/images/gitHub.svg" alt="Mantine UI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@mantine/core" target="_blank"><img src="assets/images/npm.svg" alt="Mantine UI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Chakra UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Chakra UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://chakra-ui.com/" target="_blank"><img src="assets/images/website.svg" alt="Chakra UI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/chakra-ui/chakra-ui" target="_blank"><img src="assets/images/gitHub.svg" alt="Chakra UI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@chakra-ui/react" target="_blank"><img src="assets/images/npm.svg" alt="Chakra UI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Park UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Park UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://park-ui.com/" target="_blank"><img src="assets/images/website.svg" alt="Park UI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/chakra-ui/park-ui" target="_blank"><img src="assets/images/gitHub.svg" alt="Park UI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@park-ui/cli" target="_blank"><img src="assets/images/npm.svg" alt="Park UI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Hero UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Hero UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://heroui.com/" target="_blank"><img src="assets/images/website.svg" alt="Hero UI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/heroui-inc/heroui" target="_blank"><img src="assets/images/gitHub.svg" alt="Hero UI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@heroui/react" target="_blank"><img src="assets/images/npm.svg" alt="Hero UI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- ariakit -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>ariakit</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://ariakit.com/" target="_blank"><img src="assets/images/website.svg" alt="ariakit" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/ariakit/ariakit" target="_blank"><img src="assets/images/gitHub.svg" alt="ariakit" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@ariakit/react" target="_blank"><img src="assets/images/npm.svg" alt="ariakit" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Ant Design -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Ant Design</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://ant.design/" target="_blank"><img src="assets/images/website.svg" alt="Ant Design" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/ant-design/ant-design" target="_blank"><img src="assets/images/gitHub.svg" alt="Ant Design" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/antd" target="_blank"><img src="assets/images/npm.svg" alt="Ant Design" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Headless UI -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Headless UI</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://headlessui.com/" target="_blank"><img src="assets/images/website.svg" alt="Headless UI" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/tailwindlabs/headlessui" target="_blank"><img src="assets/images/gitHub.svg" alt="Headless UI" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@headlessui/react" target="_blank"><img src="assets/images/npm.svg" alt="Headless UI" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 03 --- Frameworks -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Frameworks</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Next.js -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Next.js</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://nextjs.org/" target="_blank"><img src="assets/images/website.svg" alt="Next.js" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/vercel/next.js" target="_blank"><img src="assets/images/gitHub.svg" alt="Next.js" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/create-next-app" target="_blank"><img src="assets/images/npm.svg" alt="Next.js" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+                  
+                    <!-- item --- Gatsby -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Gatsby</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.gatsbyjs.com/" target="_blank"><img src="assets/images/website.svg" alt="Gatsby" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/gatsbyjs/gatsby" target="_blank"><img src="assets/images/gitHub.svg" alt="Gatsby" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/gatsby" target="_blank"><img src="assets/images/npm.svg" alt="Gatsby" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Astro -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Astro</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://astro.build/" target="_blank"><img src="assets/images/website.svg" alt="astro" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/withastro/astro" target="_blank"><img src="assets/images/gitHub.svg" alt="astro" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/astro" target="_blank"><img src="assets/images/npm.svg" alt="astro" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+                  
+                    <!-- item --- TanStack Start -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>TanStack Start</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://tanstack.com/start/latest" target="_blank"><img src="assets/images/website.svg" alt="TanStack Start" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/TanStack" target="_blank"><img src="assets/images/gitHub.svg" alt="TanStack Start" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@tanstack/cli" target="_blank"><img src="assets/images/npm.svg" alt="TanStack Start" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+                  
+                    <!-- item --- Remix -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Remix</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://remix.run/" target="_blank"><img src="assets/images/website.svg" alt="Remix" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/remix-run/remix" target="_blank"><img src="assets/images/gitHub.svg" alt="Remix" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/remix" target="_blank"><img src="assets/images/npm.svg" alt="Remix" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+                  
+                    <!-- item --- Vike -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Vike</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://vike.dev/" target="_blank"><img src="assets/images/website.svg" alt="Vike" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/vikejs/vike" target="_blank"><img src="assets/images/gitHub.svg" alt="Vike" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/vike" target="_blank"><img src="assets/images/npm.svg" alt="Vike" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- RedwoodSDK -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>RedwoodSDK</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://rwsdk.com/" target="_blank"><img src="assets/images/website.svg" alt="RedwoodSDK" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/redwoodjs/sdk" target="_blank"><img src="assets/images/gitHub.svg" alt="RedwoodSDK" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/rwsdk" target="_blank"><img src="assets/images/npm.svg" alt="RedwoodSDK" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Storybook -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Storybook</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://storybook.js.org/" target="_blank"><img src="assets/images/website.svg" alt="Storybook" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/storybookjs/storybook" target="_blank"><img src="assets/images/gitHub.svg" alt="Storybook" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/storybook" target="_blank"><img src="assets/images/npm.svg" alt="Storybook" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Waku -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Waku</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://waku.gg/" target="_blank"><img src="assets/images/website.svg" alt="Waku" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/wakujs/waku" target="_blank"><img src="assets/images/gitHub.svg" alt="Waku" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/waku" target="_blank"><img src="assets/images/npm.svg" alt="Waku" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 04 --- Static Frameworks -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Static Frameworks</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Docusaurus -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Docusaurus</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://docusaurus.io/" target="_blank"><img src="assets/images/website.svg" alt="Docusaurus" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/facebook/docusaurus" target="_blank"><img src="assets/images/gitHub.svg" alt="Docusaurus" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/docusaurus" target="_blank"><img src="assets/images/npm.svg" alt="Docusaurus" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Rspress -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Rspress</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://rspress.rs/" target="_blank"><img src="assets/images/website.svg" alt="Rspress" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/web-infra-dev/rspress" target="_blank"><img src="assets/images/gitHub.svg" alt="Rspress" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@rspress/core" target="_blank"><img src="assets/images/npm.svg" alt="Rspress" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+                
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 05 --- Mobile Frameworks -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Mobile Frameworks</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- React Native -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Native</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://reactnative.dev/" target="_blank"><img src="assets/images/website.svg" alt="React Native" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/react/react-native" target="_blank"><img src="assets/images/gitHub.svg" alt="React Native" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/react-native" target="_blank"><img src="assets/images/npm.svg" alt="React Native" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Expo -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Expo</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://expo.dev/" target="_blank"><img src="assets/images/website.svg" alt="Expo" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/expo/expo" target="_blank"><img src="assets/images/gitHub.svg" alt="Expo" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/expo" target="_blank"><img src="assets/images/npm.svg" alt="Expo" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+                
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 06 --- React Routing -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">React Routing</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- React Router -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Router</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://reactrouter.com/" target="_blank"><img src="assets/images/website.svg" alt="React Router" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/remix-run/react-router" target="_blank"><img src="assets/images/gitHub.svg" alt="React Router" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/react-router" target="_blank"><img src="assets/images/npm.svg" alt="React Router" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- TanStack Router -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>TanStack Router</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://tanstack.com/router/latest" target="_blank"><img src="assets/images/website.svg" alt="TanStack Router" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/tanstack/router" target="_blank"><img src="assets/images/gitHub.svg" alt="TanStack Router" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@tanstack/react-router" target="_blank"><img src="assets/images/npm.svg" alt="TanStack Router" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- wouter -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>wouter</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <!-- <a href="" target="_blank"><img src="assets/images/website.svg" alt="wouter" title="visit website" width="18" height="18"></a> -->
+                        <a href="https://github.com/molefrog/wouter" target="_blank"><img src="assets/images/gitHub.svg" alt="wouter" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/wouter" target="_blank"><img src="assets/images/npm.svg" alt="wouter" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 07 --- State Management -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">State Management</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Redux -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Redux</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://redux.js.org/" target="_blank"><img src="assets/images/website.svg" alt="Redux" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/reduxjs/redux" target="_blank"><img src="assets/images/gitHub.svg" alt="Redux" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/react-redux" target="_blank"><img src="assets/images/npm.svg" alt="Redux" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Zustand -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Zustand</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://zustand-demo.pmnd.rs/" target="_blank"><img src="assets/images/website.svg" alt="Zustand" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/pmndrs/zustand" target="_blank"><img src="assets/images/gitHub.svg" alt="Zustand" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/zustand" target="_blank"><img src="assets/images/npm.svg" alt="Zustand" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Jotai -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Jotai</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://jotai.org/" target="_blank"><img src="assets/images/website.svg" alt="Jotai" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/pmndrs/jotai" target="_blank"><img src="assets/images/gitHub.svg" alt="Jotai" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/jotai" target="_blank"><img src="assets/images/npm.svg" alt="Jotai" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Relay -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Relay (GraphQL)</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://relay.dev/" target="_blank"><img src="assets/images/website.svg" alt="Relay" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/facebook/relay" target="_blank"><img src="assets/images/gitHub.svg" alt="Relay" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/react-relay" target="_blank"><img src="assets/images/npm.svg" alt="Relay" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- MobX -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>MobX</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://mobx.js.org/README.html" target="_blank"><img src="assets/images/website.svg" alt="MobX" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/mobxjs/mobx" target="_blank"><img src="assets/images/gitHub.svg" alt="MobX" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/mobx" target="_blank"><img src="assets/images/npm.svg" alt="MobX" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- XState -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>XState</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://stately.ai/docs" target="_blank"><img src="assets/images/website.svg" alt="XState" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/statelyai/xstate" target="_blank"><img src="assets/images/gitHub.svg" alt="XState" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/xstate" target="_blank"><img src="assets/images/npm.svg" alt="XState" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Immer -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Immer</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://immerjs.github.io/immer/" target="_blank"><img src="assets/images/website.svg" alt="Immer" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/immerjs/immer" target="_blank"><img src="assets/images/gitHub.svg" alt="Immer" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/immer" target="_blank"><img src="assets/images/npm.svg" alt="Immer" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- RxDB -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>RxDB</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://rxdb.info/" target="_blank"><img src="assets/images/website.svg" alt="RxDB" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/pubkey/rxdb" target="_blank"><img src="assets/images/gitHub.svg" alt="RxDB" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/rxdb" target="_blank"><img src="assets/images/npm.svg" alt="RxDB" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 08 --- Hooks -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Hooks</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- useHooks -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>useHooks</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://usehooks.com/" target="_blank"><img src="assets/images/website.svg" alt="useHooks" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/uidotdev/usehooks" target="_blank"><img src="assets/images/gitHub.svg" alt="useHooks" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@uidotdev/usehooks" target="_blank"><img src="assets/images/npm.svg" alt="useHooks" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- ahooks -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>ahooks</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://ahooks.js.org/" target="_blank"><img src="assets/images/website.svg" alt="ahooks" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/alibaba/hooks" target="_blank"><img src="assets/images/gitHub.svg" alt="ahooks" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/ahooks" target="_blank"><img src="assets/images/npm.svg" alt="ahooks" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- React Use -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Use</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://reactuse.com/" target="_blank"><img src="assets/images/website.svg" alt="React Use" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/childrentime/reactuse" target="_blank"><img src="assets/images/gitHub.svg" alt="React Use" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@reactuses/core" target="_blank"><img src="assets/images/npm.svg" alt="React Use" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- React Hooks Library -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Hooks Library</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://react-hooks-library.vercel.app/" target="_blank"><img src="assets/images/website.svg" alt="React Hooks Library" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/heyitsarpit/react-hooks-library" target="_blank"><img src="assets/images/gitHub.svg" alt="React Hooks Library" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@react-hooks-library/core" target="_blank"><img src="assets/images/npm.svg" alt="React Hooks Library" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Rooks -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Rooks</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://rooks.vercel.app/docs" target="_blank"><img src="assets/images/website.svg" alt="Rooks" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/imbhargav5/rooks" target="_blank"><img src="assets/images/gitHub.svg" alt="Rooks" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/rooks" target="_blank"><img src="assets/images/npm.svg" alt="Rooks" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- React Hookz I Web -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Hookz I Web</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://react-hookz.github.io/web/" target="_blank"><img src="assets/images/website.svg" alt="React Hookz I Web" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/react-hookz/web" target="_blank"><img src="assets/images/gitHub.svg" alt="React Hookz I Web" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@react-hookz/web" target="_blank"><img src="assets/images/npm.svg" alt="React Hookz I Web" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- usehooks-ts -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>usehooks-ts</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://usehooks-ts.com/" target="_blank"><img src="assets/images/website.svg" alt="usehooks-ts" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/juliencrn/usehooks-ts" target="_blank"><img src="assets/images/gitHub.svg" alt="usehooks-ts" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/usehooks-ts" target="_blank"><img src="assets/images/npm.svg" alt="usehooks-ts" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 09 --- Data Fetching -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Data Fetching</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Axios -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Axios</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://axios.rest/" target="_blank"><img src="assets/images/website.svg" alt="Axios" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/axios/axios" target="_blank"><img src="assets/images/gitHub.svg" alt="Axios" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/axios" target="_blank"><img src="assets/images/npm.svg" alt="Axios" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Tanstack Query -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Tanstack Query</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://tanstack.com/query/latest" target="_blank"><img src="assets/images/website.svg" alt="Tanstack Query" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/tanstack/query" target="_blank"><img src="assets/images/gitHub.svg" alt="Tanstack Query" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@tanstack/react-query" target="_blank"><img src="assets/images/npm.svg" alt="Tanstack Query" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- SWR -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>SWR</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://vercel.com/oss/swr" target="_blank"><img src="assets/images/website.svg" alt="SWR" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/vercel/swr" target="_blank"><img src="assets/images/gitHub.svg" alt="SWR" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/swr" target="_blank"><img src="assets/images/npm.svg" alt="SWR" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- GraphQL -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>GraphQL</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://graphql.org/" target="_blank"><img src="assets/images/website.svg" alt="GraphQL" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/graphql" target="_blank"><img src="assets/images/gitHub.svg" alt="GraphQL" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package//graphql" target="_blank"><img src="assets/images/npm.svg" alt="GraphQL" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Alova.js -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Alova.js</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://alova.js.org/" target="_blank"><img src="assets/images/website.svg" alt="Alova.js" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/alovajs/alova" target="_blank"><img src="assets/images/gitHub.svg" alt="Alova.js" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/alova" target="_blank"><img src="assets/images/npm.svg" alt="Alova.js" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- undici -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>undici</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://undici.nodejs.org/" target="_blank"><img src="assets/images/website.svg" alt="undici" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/nodejs/undici" target="_blank"><img src="assets/images/gitHub.svg" alt="undici" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/undici" target="_blank"><img src="assets/images/npm.svg" alt="undici" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Got -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Got</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <!-- <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a> -->
+                        <a href="https://github.com/sindresorhus/got" target="_blank"><img src="assets/images/gitHub.svg" alt="Got" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/got" target="_blank"><img src="assets/images/npm.svg" alt="Got" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- ky -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>ky</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <!-- <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a> -->
+                        <a href="https://github.com/sindresorhus/ky" target="_blank"><img src="assets/images/gitHub.svg" alt="ky" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/ky" target="_blank"><img src="assets/images/npm.svg" alt="ky" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 10 --- Tables -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Tables </h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- TanStack Table -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>TanStack Table</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://tanstack.com/table/latest" target="_blank"><img src="assets/images/website.svg" alt="TanStack Table" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/TanStack/table" target="_blank"><img src="assets/images/gitHub.svg" alt="TanStack Table" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@tanstack/react-table" target="_blank"><img src="assets/images/npm.svg" alt="TanStack Table" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- React Data Grid -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Data Grid</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://comcast.github.io/react-data-grid/" target="_blank"><img src="assets/images/website.svg" alt="React Data Grid" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/Comcast/react-data-grid" target="_blank"><img src="assets/images/gitHub.svg" alt="React Data Grid" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/react-data-grid" target="_blank"><img src="assets/images/npm.svg" alt="React Data Grid" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 11 --- Forms -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Forms</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- React Hook Form -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Hook Form</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://react-hook-form.com/" target="_blank"><img src="assets/images/website.svg" alt="React Hook Form" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/react-hook-form/react-hook-form" target="_blank"><img src="assets/images/gitHub.svg" alt="React Hook Form" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/react-hook-form" target="_blank"><img src="assets/images/npm.svg" alt="React Hook Form" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Formik -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Formik</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://formik.org/" target="_blank"><img src="assets/images/website.svg" alt="Formik" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/jaredpalmer/formik" target="_blank"><img src="assets/images/gitHub.svg" alt="Formik" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/formik" target="_blank"><img src="assets/images/npm.svg" alt="Formik" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Tanstack Form -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Tanstack Form</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://tanstack.com/form/latest" target="_blank"><img src="assets/images/website.svg" alt="Tanstack Form" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/TanStack/form" target="_blank"><img src="assets/images/gitHub.svg" alt="Tanstack Form" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@tanstack/react-form" target="_blank"><img src="assets/images/npm.svg" alt="Tanstack Form" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 12 --- Data Validator -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Data Validator</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Zod -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Zod</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://zod.dev/" target="_blank"><img src="assets/images/website.svg" alt="Zod" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/colinhacks/zod" target="_blank"><img src="assets/images/gitHub.svg" alt="Zod" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/zod" target="_blank"><img src="assets/images/npm.svg" alt="Zod" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- joi -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>joi</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://joi.dev/" target="_blank"><img src="assets/images/website.svg" alt="joi" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/hapijs/joi" target="_blank"><img src="assets/images/gitHub.svg" alt="joi" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/joi" target="_blank"><img src="assets/images/npm.svg" alt="joi" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- validator.js -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>validator.js</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <!-- <a href="" target="_blank"><img src="assets/images/website.svg" alt="validator.js" title="visit website" width="18" height="18"></a> -->
+                        <a href="https://github.com/validatorjs/validator.js" target="_blank"><img src="assets/images/gitHub.svg" alt="validator.js" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/validator" target="_blank"><img src="assets/images/npm.svg" alt="validator.js" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 13 --- Authentication -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Authentication</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Firebase -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Firebase</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://firebase.google.com/" target="_blank"><img src="assets/images/website.svg" alt="Firebase" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/firebase" target="_blank"><img src="assets/images/gitHub.svg" alt="Firebase" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/firebase" target="_blank"><img src="assets/images/npm.svg" alt="Firebase" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Supabase -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Supabase</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://supabase.com/" target="_blank"><img src="assets/images/website.svg" alt="Supabase" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/supabase/supabase" target="_blank"><img src="assets/images/gitHub.svg" alt="Supabase" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@supabase/auth-js" target="_blank"><img src="assets/images/npm.svg" alt="Supabase" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Clerk -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Clerk</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://clerk.com/" target="_blank"><img src="assets/images/website.svg" alt="Clerk" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/clerk" target="_blank"><img src="assets/images/gitHub.svg" alt="Clerk" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@clerk/react" target="_blank"><img src="assets/images/npm.svg" alt="Clerk" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Auth.js / NextAuth.js  -->
+                    <div class="flex flex-row justify-between items-end gap-2">
+                      <p>Auth.js / <br> NextAuth.js </p>
+                      <div class="ml-2 mb-2 flex flex-row justify-center items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://authjs.dev/" target="_blank"><img src="assets/images/website.svg" alt="Auth.js / NextAuth.js " title="visit website" width="18" height="18"></a>
+                        <a href="https://next-auth.js.org/" target="_blank"><img src="assets/images/website.svg" alt="Auth.js / NextAuth.js " title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/nextauthjs/next-auth" target="_blank"><img src="assets/images/gitHub.svg" alt="Auth.js / NextAuth.js " title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/next-auth" target="_blank"><img src="assets/images/npm.svg" alt="Auth.js / NextAuth.js " title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Better Auth -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Better Auth</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://better-auth.com/" target="_blank"><img src="assets/images/website.svg" alt="Better Auth" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/better-auth" target="_blank"><img src="assets/images/gitHub.svg" alt="Better Auth" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/better-auth" target="_blank"><img src="assets/images/npm.svg" alt="Better Auth" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Passport.js -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Passport.js</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.passportjs.org/" target="_blank"><img src="assets/images/website.svg" alt="Passport.js" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/jaredhanson/passport" target="_blank"><img src="assets/images/gitHub.svg" alt="Passport.js" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Passport.js" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 14 --- Animations -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Animations</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Motion -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Motion</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://motion.dev/" target="_blank"><img src="assets/images/website.svg" alt="Motion" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/motiondivision/motion" target="_blank"><img src="assets/images/gitHub.svg" alt="Motion" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/motion" target="_blank"><img src="assets/images/npm.svg" alt="Motion" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Anime.js -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Anime.js</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://animejs.com/" target="_blank"><img src="assets/images/website.svg" alt="Anime.js" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/juliangarnier/anime" target="_blank"><img src="assets/images/gitHub.svg" alt="Anime.js" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/animejs" target="_blank"><img src="assets/images/npm.svg" alt="Anime.js" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- React Spring -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Spring</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.react-spring.dev/" target="_blank"><img src="assets/images/website.svg" alt="React Spring" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/pmndrs/react-spring" target="_blank"><img src="assets/images/gitHub.svg" alt="React Spring" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@react-spring/web" target="_blank"><img src="assets/images/npm.svg" alt="React Spring" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- AutoAnimate -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>AutoAnimate</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://auto-animate.formkit.com/" target="_blank"><img src="assets/images/website.svg" alt="AutoAnimate" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/formkit/auto-animate" target="_blank"><img src="assets/images/gitHub.svg" alt="AutoAnimate" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@formkit/auto-animate" target="_blank"><img src="assets/images/npm.svg" alt="AutoAnimate" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- simpleParallax.js -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>simpleParallax.js</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://simpleparallax.com/" target="_blank"><img src="assets/images/website.svg" alt="simpleParallax.js" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/geosigno/simpleParallax.js/" target="_blank"><img src="assets/images/gitHub.svg" alt="simpleParallax.js" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/simple-parallax-js" target="_blank"><img src="assets/images/npm.svg" alt="simpleParallax.js" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Remotion -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Remotion</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.remotion.dev/" target="_blank"><img src="assets/images/website.svg" alt="Remotion" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/remotion-dev/remotion" target="_blank"><img src="assets/images/gitHub.svg" alt="Remotion" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/remotion" target="_blank"><img src="assets/images/npm.svg" alt="Remotion" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 15 --- Charts -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Charts</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Recharts -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Recharts</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://recharts.github.io/" target="_blank"><img src="assets/images/website.svg" alt="Recharts" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/recharts/recharts" target="_blank"><img src="assets/images/gitHub.svg" alt="Recharts" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/recharts" target="_blank"><img src="assets/images/npm.svg" alt="Recharts" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- visx -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>visx (Airbnb)</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://visx.airbnb.tech/" target="_blank"><img src="assets/images/website.svg" alt="visx" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/airbnb/visx" target="_blank"><img src="assets/images/gitHub.svg" alt="visx" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@visx/visx" target="_blank"><img src="assets/images/npm.svg" alt="visx" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Victory -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Victory</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://nearform.com/open-source/victory/" target="_blank"><img src="assets/images/website.svg" alt="Victory" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/FormidableLabs/victory" target="_blank"><img src="assets/images/gitHub.svg" alt="Victory" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/victory" target="_blank"><img src="assets/images/npm.svg" alt="Victory" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- React-Vis (Uber) -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React-Vis (Uber)</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://uber.github.io/react-vis/" target="_blank"><img src="assets/images/website.svg" alt="React-Vis" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/uber/react-vis" target="_blank"><img src="assets/images/gitHub.svg" alt="React-Vis" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/react-vis" target="_blank"><img src="assets/images/npm.svg" alt="React-Vis" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- React Flow -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>React Flow</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://reactflow.dev/" target="_blank"><img src="assets/images/website.svg" alt="React Flow" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/xyflow/xyflow" target="_blank"><img src="assets/images/gitHub.svg" alt="React Flow" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/@xyflow/react" target="_blank"><img src="assets/images/npm.svg" alt="React Flow" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item --- Chart.js -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Chart.js</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.chartjs.org/" target="_blank"><img src="assets/images/website.svg" alt="Chart.js" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/chartjs/Chart.js" target="_blank"><img src="assets/images/gitHub.svg" alt="Chart.js" title="gitHub Link" width="18" height="18"></a>
+                        <a href="https://www.npmjs.com/package/chart.js" target="_blank"><img src="assets/images/npm.svg" alt="Chart.js" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <!-- Card 16 --- Maps -->
+            <div class="w-full m-2">
+                <h3 class="text-2xl mb-6">Maps</h3>
+                    <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                      <!-- item --- React Leaflet -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>React Leaflet</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://react-leaflet.js.org/" target="_blank"><img src="assets/images/website.svg" alt="React Leaflet" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/PaulLeCam/react-leaflet" target="_blank"><img src="assets/images/gitHub.svg" alt="React Leaflet" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/react-leaflet" target="_blank"><img src="assets/images/npm.svg" alt="React Leaflet" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item --- react-google-maps -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>react-google-maps</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://visgl.github.io/react-google-maps/" target="_blank"><img src="assets/images/website.svg" alt="react-google-maps" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/visgl/react-google-maps" target="_blank"><img src="assets/images/gitHub.svg" alt="react-google-maps" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/@vis.gl/react-google-maps" target="_blank"><img src="assets/images/npm.svg" alt="react-google-maps" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item --- React Simple Maps -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>React Simple Maps</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://www.react-simple-maps.io/" target="_blank"><img src="assets/images/website.svg" alt="React Simple Maps" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/zcreativelabs/react-simple-maps" target="_blank"><img src="assets/images/gitHub.svg" alt="React Simple Maps" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/react-simple-maps" target="_blank"><img src="assets/images/npm.svg" alt="React Simple Maps" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item --- react-map-gl -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>react-map-gl</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://visgl.github.io/react-map-gl/" target="_blank"><img src="assets/images/website.svg" alt="react-map-gl" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/visgl/react-map-gl" target="_blank"><img src="assets/images/gitHub.svg" alt="react-map-gl" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/maplibre-gl" target="_blank"><img src="assets/images/npm.svg" alt="react-map-gl" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item ---  -->
+                      <!-- <div class="flex flex-row justify-between items-center gap-2">
+                        <p></p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div> -->
+                    </div>
+            </div>
+
+            <!-- Card 07 --- Version Control -->
+            <div class="w-full m-2">
+                <h3 class="text-2xl mb-6">Version Control</h3>
+                    <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                      <!-- item --- git -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>git</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://git-scm.com/" target="_blank"><img src="assets/images/website.svg" alt="git" title="visit website" width="18" height="18"></a>
+                          <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="git" title="gitHub Link" width="18" height="18"></a> -->
+                          <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="git" title="npm Link" width="18" height="18" ></a> -->
+                        </div>
+                      </div>
+
+                      <!-- item --- GitHub -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>GitHub</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://github.com/" target="_blank"><img src="assets/images/website.svg" alt="GitHub" title="visit website" width="18" height="18"></a>
+                          <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="GitHub" title="gitHub Link" width="18" height="18"></a> -->
+                          <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="GitHub" title="npm Link" width="18" height="18" ></a> -->
+                        </div>
+                      </div>
+
+                      <!-- item --- GitLab -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>GitLab</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://about.gitlab.com/" target="_blank"><img src="assets/images/website.svg" alt="GitLab" title="visit website" width="18" height="18"></a>
+                          <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="GitLab" title="gitHub Link" width="18" height="18"></a> -->
+                          <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="GitLab" title="npm Link" width="18" height="18" ></a> -->
+                        </div>
+                      </div>
+
+                      <!-- item ---  -->
+                      <!-- <div class="flex flex-row justify-between items-center gap-2">
+                        <p></p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div> -->
+                    </div>
+            </div>
+          </div>
+          
+          <div class="flex flex-col gap-2">
+
+            <!-- Card 17 --- Linters -->
+            <div class="w-full m-2">
+                <h3 class="text-2xl mb-6">Linters</h3>
+                    <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                      <!-- item --- ESLint -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>ESLint</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://eslint.org/" target="_blank"><img src="assets/images/website.svg" alt="ESLint" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/eslint/eslint" target="_blank"><img src="assets/images/gitHub.svg" alt="ESLint" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/@eslint/js" target="_blank"><img src="assets/images/npm.svg" alt="ESLint" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item --- Biome -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>Biome</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://biomejs.dev/" target="_blank"><img src="assets/images/website.svg" alt="Biome" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/biomejs/biome" target="_blank"><img src="assets/images/gitHub.svg" alt="Biome" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/@biomejs/biome" target="_blank"><img src="assets/images/npm.svg" alt="Biome" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item ---  -->
+                      <!-- <div class="flex flex-row justify-between items-center gap-2">
+                        <p></p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div> -->
+                    </div>
+            </div>
+
+            <!-- Card 1702 --- Testing -->
+            <div class="w-full m-2">
+                <h3 class="text-2xl mb-6">Testing</h3>
+                    <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                      <!-- item --- Jest -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>Jest</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://jestjs.io/" target="_blank"><img src="assets/images/website.svg" alt="Jest" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/jestjs/jest" target="_blank"><img src="assets/images/gitHub.svg" alt="Jest" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/jest" target="_blank"><img src="assets/images/npm.svg" alt="Jest" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item --- React Testing Library -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>React Testing Library</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://testing-library.com/docs/react-testing-library/intro/" target="_blank"><img src="assets/images/website.svg" alt="React Testing Library" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/testing-library/react-testing-library" target="_blank"><img src="assets/images/gitHub.svg" alt="React Testing Library" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/@testing-library/react" target="_blank"><img src="assets/images/npm.svg" alt="React Testing Library" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item --- cypress -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>cypress</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://www.cypress.io/" target="_blank"><img src="assets/images/website.svg" alt="cypress" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/cypress-io/cypress" target="_blank"><img src="assets/images/gitHub.svg" alt="cypress" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/cypress" target="_blank"><img src="assets/images/npm.svg" alt="cypress" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item --- Playwright -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>Playwright</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://playwright.dev/" target="_blank"><img src="assets/images/website.svg" alt="Playwright" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/microsoft/playwright" target="_blank"><img src="assets/images/gitHub.svg" alt="Playwright" title="gitHub Link" width="18" height="18"></a>
+                          <a href="https://www.npmjs.com/package/playwright" target="_blank"><img src="assets/images/npm.svg" alt="Playwright" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div>
+
+                      <!-- item ---  -->
+                      <!-- <div class="flex flex-row justify-between items-center gap-2">
+                        <p></p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div> -->
+                    </div>
+            </div>
+
+          </div>
+
+          <!-- Card 18 --- Deployment -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Deployment</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- netlify -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>netlify</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.netlify.com/" target="_blank"><img src="assets/images/website.svg" alt="netlify" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/netlify" target="_blank"><img src="assets/images/gitHub.svg" alt="netlify" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="netlify" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Vercel -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Vercel</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://vercel.com/" target="_blank"><img src="assets/images/website.svg" alt="Vercel" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/vercel" target="_blank"><img src="assets/images/gitHub.svg" alt="Vercel" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Vercel" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Surge -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Surge</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://surge.sh/" target="_blank"><img src="assets/images/website.svg" alt="Surge" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/sintaxi/surge" target="_blank"><img src="assets/images/gitHub.svg" alt="Surge" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Surge" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Firebase Hosting -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Firebase Hosting</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://firebase.google.com/docs/hosting" target="_blank"><img src="assets/images/website.svg" alt="Firebase Hosting" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="Firebase Hosting" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Firebase Hosting" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- cloudflare -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>cloudflare</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.cloudflare.com/products/pages/" target="_blank"><img src="assets/images/website.svg" alt="cloudflare" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="cloudflare" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="cloudflare" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Railway -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Railway</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://railway.com/" target="_blank"><img src="assets/images/website.svg" alt="Railway" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="Railway" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Railway" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Render -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Render</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://render.com/" target="_blank"><img src="assets/images/website.svg" alt="Render" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="Render" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Render" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+
+        </div>
+      </section>
+
+      <!-- dev tool  -->
+      <section class="mb-2">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+          <!-- Card 01 --- Module Bundlers -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Module Bundlers</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Vite -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Vite</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://vite.dev/" target="_blank"><img src="assets/images/website.svg" alt="Vite" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/vitejs/vite" target="_blank"><img src="assets/images/gitHub.svg" alt="Vite" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Vite" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Parcel -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Parcel</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://parceljs.org/" target="_blank"><img src="assets/images/website.svg" alt="Parcel" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/parcel-bundler/parcel" target="_blank"><img src="assets/images/gitHub.svg" alt="Parcel" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Parcel" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- webpack -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>webpack</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://webpack.js.org/" target="_blank"><img src="assets/images/website.svg" alt="webpack" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/webpack/webpack" target="_blank"><img src="assets/images/gitHub.svg" alt="webpack" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="webpack" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Rollup -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Rollup</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://rollupjs.org/" target="_blank"><img src="assets/images/website.svg" alt="Rollup" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/rollup/rollup" target="_blank"><img src="assets/images/gitHub.svg" alt="Rollup" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Rollup" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Snowpack -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Snowpack</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.snowpack.dev/" target="_blank"><img src="assets/images/website.svg" alt="Snowpack" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/FredKSchott/snowpack" target="_blank"><img src="assets/images/gitHub.svg" alt="Snowpack" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Snowpack" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- esbuild -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>esbuild</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://esbuild.github.io/" target="_blank"><img src="assets/images/website.svg" alt="esbuild" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/evanw/esbuild" target="_blank"><img src="assets/images/gitHub.svg" alt="esbuild" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="esbuild" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Bun -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Bun</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://bun.sh/" target="_blank"><img src="assets/images/website.svg" alt="Bun" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/oven-sh/bun" target="_blank"><img src="assets/images/gitHub.svg" alt="Bun" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Bun" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <div class="flex flex-col gap-2">
+            <!-- Card 0201 --- Package Manager -->
+            <div class="w-full m-2">
+                <h3 class="text-2xl mb-6">Package Manager</h3>
+                    <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                      <!-- item --- npm -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>npm</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://www.npmjs.com/" target="_blank"><img src="assets/images/website.svg" alt="npm" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/npm" target="_blank"><img src="assets/images/gitHub.svg" alt="npm" title="gitHub Link" width="18" height="18"></a>
+                          <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="npm" title="npm Link" width="18" height="18" ></a> -->
+                        </div>
+                      </div>
+
+                      <!-- item --- Yarn -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>Yarn</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://yarnpkg.com/" target="_blank"><img src="assets/images/website.svg" alt="Yarn" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/yarnpkg/berry" target="_blank"><img src="assets/images/gitHub.svg" alt="Yarn" title="gitHub Link" width="18" height="18"></a>
+                          <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Yarn" title="npm Link" width="18" height="18" ></a> -->
+                        </div>
+                      </div>
+
+                      <!-- item --- pnpm -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>pnpm</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://pnpm.io/" target="_blank"><img src="assets/images/website.svg" alt="pnpm" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/pnpm/pnpm" target="_blank"><img src="assets/images/gitHub.svg" alt="pnpm" title="gitHub Link" width="18" height="18"></a>
+                          <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="pnpm" title="npm Link" width="18" height="18" ></a> -->
+                        </div>
+                      </div>
+
+                      <!-- item --- Bun -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>Bun</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://bun.sh/" target="_blank"><img src="assets/images/website.svg" alt="Bun" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/oven-sh/bun" target="_blank"><img src="assets/images/gitHub.svg" alt="Bun" title="gitHub Link" width="18" height="18"></a>
+                          <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Bun" title="npm Link" width="18" height="18" ></a> -->
+                        </div>
+                      </div>
+
+                      <!-- item ---  -->
+                      <!-- <div class="flex flex-row justify-between items-center gap-2">
+                        <p></p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div> -->
+                    </div>
+            </div>
+
+            <!-- Card 0202 --- npm search engine -->
+            <div class="w-full m-2">
+                <h3 class="text-2xl mb-6">npm Search Engine</h3>
+                    <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                      <!-- item --- npmx -->
+                      <div class="flex flex-row justify-between items-center gap-2">
+                        <p>npmx</p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="https://npmx.dev/" target="_blank"><img src="assets/images/website.svg" alt="npmx" title="visit website" width="18" height="18"></a>
+                          <a href="https://github.com/npmx-dev/npmx.dev" target="_blank"><img src="assets/images/gitHub.svg" alt="npmx" title="gitHub Link" width="18" height="18"></a>
+                          <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="npmx" title="npm Link" width="18" height="18" ></a> -->
+                        </div>
+                      </div>
+
+                      <!-- item ---  -->
+                      <!-- <div class="flex flex-row justify-between items-center gap-2">
+                        <p></p>
+                        <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                          <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                          <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                        </div>
+                      </div> -->
+                    </div>
+            </div>
+
+          </div>
+          
+          <!-- Card 03 --- Content Delivery Networks (CDNs) -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Content Delivery Networks (CDNs)</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- cdnjs -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>cdnjs</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://cdnjs.com/" target="_blank"><img src="assets/images/website.svg" alt="cdnjs" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/cdnjs" target="_blank"><img src="assets/images/gitHub.svg" alt="cdnjs" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="cdnjs" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- jsDelivr -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>jsDelivr</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.jsdelivr.com/" target="_blank"><img src="assets/images/website.svg" alt="jsDelivr" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/jsdelivr/jsdelivr" target="_blank"><img src="assets/images/gitHub.svg" alt="jsDelivr" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="jsDelivr" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- esm.sh -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>esm.sh</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://esm.sh/" target="_blank"><img src="assets/images/website.svg" alt="esm.sh" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/esm-dev/esm.sh" target="_blank"><img src="assets/images/gitHub.svg" alt="esm.sh" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="esm.sh" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- UNPKG -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>UNPKG</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://unpkg.com/" target="_blank"><img src="assets/images/website.svg" alt="UNPKG" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/unpkg" target="_blank"><img src="assets/images/gitHub.svg" alt="UNPKG" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="UNPKG" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- JSPM -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>JSPM</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://jspm.org/" target="_blank"><img src="assets/images/website.svg" alt="JSPM" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/jspm/jspm" target="_blank"><img src="assets/images/gitHub.svg" alt="JSPM" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="JSPM" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Skypack -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Skypack</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.skypack.dev/" target="_blank"><img src="assets/images/website.svg" alt="Skypack" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="Skypack" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Skypack" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 04 --- Code Editors -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Code Editors</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- VS Code -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>VS Code</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://code.visualstudio.com/" target="_blank"><img src="assets/images/website.svg" alt="VS Code" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/microsoft/vscode" target="_blank"><img src="assets/images/gitHub.svg" alt="VS Code" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="VS Code" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- WebStorm -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>WebStorm</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.jetbrains.com/webstorm/" target="_blank"><img src="assets/images/website.svg" alt="WebStorm" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="WebStorm" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="WebStorm" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- cursor -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>cursor</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://cursor.com/" target="_blank"><img src="assets/images/website.svg" alt="cursor" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="cursor" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="cursor" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Sublime Text -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Sublime Text</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.sublimetext.com/" target="_blank"><img src="assets/images/website.svg" alt="Sublime Text" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="Sublime Text" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Sublime Text" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- VSCodium -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>VSCodium</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://vscodium.com/" target="_blank"><img src="assets/images/website.svg" alt="VSCodium" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="VSCodium" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="VSCodium" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 05 --- Terminal -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">Terminal</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Tabby -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Tabby</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://tabby.sh/" target="_blank"><img src="assets/images/website.svg" alt="Tabby" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/eugeny/tabby" target="_blank"><img src="assets/images/gitHub.svg" alt="Tabby" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Tabby" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Hyper -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Hyper</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://hyper.is/" target="_blank"><img src="assets/images/website.svg" alt="Hyper" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/vercel/hyper" target="_blank"><img src="assets/images/gitHub.svg" alt="Hyper" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Hyper" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- WezTerm -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>WezTerm</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://wezterm.org/" target="_blank"><img src="assets/images/website.svg" alt="WezTerm" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/wezterm/wezterm" target="_blank"><img src="assets/images/gitHub.svg" alt="WezTerm" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="WezTerm" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Alacritty -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Alacritty</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://alacritty.org/" target="_blank"><img src="assets/images/website.svg" alt="Alacritty" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/alacritty/alacritty" target="_blank"><img src="assets/images/gitHub.svg" alt="Alacritty" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Alacritty" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+
+          <!-- Card 06 --- API platform -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">API platform</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- Postman -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Postman</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.postman.com/" target="_blank"><img src="assets/images/website.svg" alt="Postman" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="Postman" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Postman" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Apidog -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Apidog</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://apidog.com/" target="_blank"><img src="assets/images/website.svg" alt="Apidog" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="Apidog" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Apidog" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- insomnia -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>insomnia</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://insomnia.rest/" target="_blank"><img src="assets/images/website.svg" alt="insomnia" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="insomnia" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="insomnia" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- hoppscotch -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>hoppscotch</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://hoppscotch.io/" target="_blank"><img src="assets/images/website.svg" alt="hoppscotch" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="hoppscotch" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="hoppscotch" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Bruno -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Bruno</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.usebruno.com/" target="_blank"><img src="assets/images/website.svg" alt="Bruno" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="Bruno" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Bruno" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- Yaak -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>Yaak</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://yaak.app/" target="_blank"><img src="assets/images/website.svg" alt="Yaak" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="Yaak" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="Yaak" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- cURL -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>cURL</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://curl.se/" target="_blank"><img src="assets/images/website.svg" alt="cURL" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="cURL" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="cURL" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="mb-2">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          
+          <!-- Card 06 --- AlternativeTo -->
+          <div class="w-full m-2">
+              <h3 class="text-2xl mb-6">AlternativeTo</h3>
+                  <div class="flex flex-col items-start *:mb-2 *:text-lg *:text-white">
+
+                    <!-- item --- awesome-react-components -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>awesome-react-components</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <!-- <a href="" target="_blank"><img src="assets/images/website.svg" alt="awesome-react-components" title="visit website" width="18" height="18"></a> -->
+                        <a href="https://github.com/brillout/awesome-react-components" target="_blank"><img src="assets/images/gitHub.svg" alt="awesome-react-components" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="awesome-react-components" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- awesome-react -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>awesome-react</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://awesome-react.dev/" target="_blank"><img src="assets/images/website.svg" alt="awesome-react" title="visit website" width="18" height="18"></a>
+                        <a href="https://github.com/neyric/awesome-react" target="_blank"><img src="assets/images/gitHub.svg" alt="awesome-react" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="awesome-react" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- best-of-react -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>best-of-react</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <!-- <a href="" target="_blank"><img src="assets/images/website.svg" alt="best-of-react" title="visit website" width="18" height="18"></a> -->
+                        <a href="https://github.com/lukasmasuch/best-of-react/tree/main" target="_blank"><img src="assets/images/gitHub.svg" alt="best-of-react" title="gitHub Link" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="best-of-react" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item --- react-libraries -->
+                    <div class="flex flex-row justify-between items-center gap-2">
+                      <p>react-libraries</p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="https://www.robinwieruch.de/react-libraries/" target="_blank"><img src="assets/images/website.svg" alt="react-libraries" title="visit website" width="18" height="18"></a>
+                        <!-- <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="react-libraries" title="gitHub Link" width="18" height="18"></a> -->
+                        <!-- <a href="" target="_blank"><img src="assets/images/npm.svg" alt="react-libraries" title="npm Link" width="18" height="18" ></a> -->
+                      </div>
+                    </div>
+
+                    <!-- item ---  -->
+                    <!-- <div class="flex flex-row justify-between items-center gap-2">
+                      <p></p>
+                      <div class="ml-2 flex flex-row justify-end items-center gap-2 transition-transform duration-300 ease-in-out *:hover:scale-150">
+                        <a href="" target="_blank"><img src="assets/images/website.svg" alt="" title="visit website" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/gitHub.svg" alt="" title="gitHub Link" width="18" height="18"></a>
+                        <a href="" target="_blank"><img src="assets/images/npm.svg" alt="" title="npm Link" width="18" height="18" ></a>
+                      </div>
+                    </div> -->
+                  </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="w-full max-w-5xl mb-4 border-t-1 pt-2">
+      <!-- <h1 class="font-bold"> --- +++ The End +++ ---</h1> -->
+       <div class="w-full flex flex-col md:flex-row gap-2 justify-between items-start md:items-center">
+
+        <div class="flex flex-col">
+          <div class="flex flex-row gap-2 items-center">
+            <img src="assets/images/react_vault_logo.png" alt="react_vault_logo" class="w-8">
+            <h1 class="text-2xl">React Vault</h1>
+          </div>
+          <p class="ml-2 text-sm text-white my-2">A Vault of the best React libraries, frameworks, and developer tools</p>
+        </div>
+
+        <div class="flex flex-col justify-center items-start md:items-end">
+          <div class="ml-2">
+            <h1 class="text-2xl">Social</h1>
+            <div class="flex flex-row gap-2 items-center justify-center *:mt-2">
+              <a href="#" target="_blank"><img src="assets/images/gitHub.svg" alt="" class="w-8"></a>
+            </div>
+          </div>
+        </div>
+
+       </div>
+    </footer>
+</body>
+</html>
